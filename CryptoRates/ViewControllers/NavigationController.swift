@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NavigationController.swift
 //  CryptoCourses
 //
 //  Created by Владимир Беляев on 13.01.2021.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationBar.prefersLargeTitles = true
     }
 
-
 }
-

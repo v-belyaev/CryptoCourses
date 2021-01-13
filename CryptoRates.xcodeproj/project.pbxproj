@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205FD70225AEE73500CC35DC /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205FD70125AEE73500CC35DC /* Rate.swift */; };
+		205FD70F25AEEDA300CC35DC /* URL+makeForEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205FD70E25AEEDA300CC35DC /* URL+makeForEndpoint.swift */; };
+		205FD71325AEEF6E00CC35DC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205FD71225AEEF6E00CC35DC /* Endpoint.swift */; };
+		205FD71625AEF57C00CC35DC /* URLSession+request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205FD71525AEF57C00CC35DC /* URLSession+request.swift */; };
+		2071853225AEFECE00FAAC60 /* RateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2071853125AEFECE00FAAC60 /* RateTableViewCell.swift */; };
+		2071853525AF0E4300FAAC60 /* RateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2071853425AF0E4300FAAC60 /* RateTableViewCell.xib */; };
 		2079892B25AEDB20002A572A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079892A25AEDB20002A572A /* AppDelegate.swift */; };
 		2079892D25AEDB20002A572A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079892C25AEDB20002A572A /* SceneDelegate.swift */; };
-		2079892F25AEDB20002A572A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079892E25AEDB20002A572A /* ViewController.swift */; };
-		2079893225AEDB20002A572A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2079893025AEDB20002A572A /* Main.storyboard */; };
-		2079893425AEDB24002A572A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2079893325AEDB24002A572A /* Assets.xcassets */; };
+		2079892F25AEDB20002A572A /* RatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079892E25AEDB20002A572A /* RatesViewController.swift */; };
+		2079893425AEDB24002A572A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2079893325AEDB24002A572A /* Images.xcassets */; };
 		2079893725AEDB24002A572A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2079893525AEDB24002A572A /* LaunchScreen.storyboard */; };
+		2079894125AEDEF7002A572A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079894025AEDEF7002A572A /* NavigationController.swift */; };
+		208AE33B25AEE2A8001D0D7A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208AE33A25AEE2A8001D0D7A /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2079892725AEDB20002A572A /* CryptoCourses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCourses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205FD70125AEE73500CC35DC /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		205FD70E25AEEDA300CC35DC /* URL+makeForEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+makeForEndpoint.swift"; sourceTree = "<group>"; };
+		205FD71225AEEF6E00CC35DC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		205FD71525AEF57C00CC35DC /* URLSession+request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+request.swift"; sourceTree = "<group>"; };
+		2071853125AEFECE00FAAC60 /* RateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTableViewCell.swift; sourceTree = "<group>"; };
+		2071853425AF0E4300FAAC60 /* RateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateTableViewCell.xib; sourceTree = "<group>"; };
+		2079892725AEDB20002A572A /* CryptoRates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoRates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2079892A25AEDB20002A572A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2079892C25AEDB20002A572A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2079892E25AEDB20002A572A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2079893125AEDB20002A572A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2079893325AEDB24002A572A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2079892E25AEDB20002A572A /* RatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesViewController.swift; sourceTree = "<group>"; };
+		2079893325AEDB24002A572A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2079893625AEDB24002A572A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2079893825AEDB24002A572A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2079894025AEDEF7002A572A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		208AE33A25AEE2A8001D0D7A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +54,7 @@
 		2079891E25AEDB20002A572A = {
 			isa = PBXGroup;
 			children = (
-				2079892925AEDB20002A572A /* CryptoCourses */,
+				2079892925AEDB20002A572A /* CryptoRates */,
 				2079892825AEDB20002A572A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +62,102 @@
 		2079892825AEDB20002A572A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2079892725AEDB20002A572A /* CryptoCourses.app */,
+				2079892725AEDB20002A572A /* CryptoRates.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2079892925AEDB20002A572A /* CryptoCourses */ = {
+		2079892925AEDB20002A572A /* CryptoRates */ = {
+			isa = PBXGroup;
+			children = (
+				208AE33725AEE213001D0D7A /* Resources */,
+				208AE33625AEE20A001D0D7A /* Common */,
+				208AE33525AEE201001D0D7A /* Networking */,
+				208AE33425AEE1FA001D0D7A /* Models */,
+				208AE33325AEE1F1001D0D7A /* ViewControllers */,
+				208AE33225AEE1E5001D0D7A /* Views */,
+			);
+			path = CryptoRates;
+			sourceTree = "<group>";
+		};
+		208AE33225AEE1E5001D0D7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2071853125AEFECE00FAAC60 /* RateTableViewCell.swift */,
+				2071853425AF0E4300FAAC60 /* RateTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		208AE33325AEE1F1001D0D7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2079892E25AEDB20002A572A /* RatesViewController.swift */,
+				2079894025AEDEF7002A572A /* NavigationController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		208AE33425AEE1FA001D0D7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				205FD70125AEE73500CC35DC /* Rate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		208AE33525AEE201001D0D7A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				205FD71225AEEF6E00CC35DC /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		208AE33625AEE20A001D0D7A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				208AE33925AEE22C001D0D7A /* Supporting Files */,
+				208AE33825AEE21E001D0D7A /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		208AE33725AEE213001D0D7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2079893325AEDB24002A572A /* Images.xcassets */,
+				208AE33A25AEE2A8001D0D7A /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		208AE33825AEE21E001D0D7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				205FD70E25AEEDA300CC35DC /* URL+makeForEndpoint.swift */,
+				205FD71525AEF57C00CC35DC /* URLSession+request.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		208AE33925AEE22C001D0D7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				2079892A25AEDB20002A572A /* AppDelegate.swift */,
 				2079892C25AEDB20002A572A /* SceneDelegate.swift */,
-				2079892E25AEDB20002A572A /* ViewController.swift */,
-				2079893025AEDB20002A572A /* Main.storyboard */,
-				2079893325AEDB24002A572A /* Assets.xcassets */,
-				2079893525AEDB24002A572A /* LaunchScreen.storyboard */,
 				2079893825AEDB24002A572A /* Info.plist */,
+				2079893525AEDB24002A572A /* LaunchScreen.storyboard */,
 			);
-			path = CryptoCourses;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2079892625AEDB20002A572A /* CryptoCourses */ = {
+		2079892625AEDB20002A572A /* CryptoRates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2079893B25AEDB24002A572A /* Build configuration list for PBXNativeTarget "CryptoCourses" */;
+			buildConfigurationList = 2079893B25AEDB24002A572A /* Build configuration list for PBXNativeTarget "CryptoRates" */;
 			buildPhases = (
 				2079892325AEDB20002A572A /* Sources */,
 				2079892425AEDB20002A572A /* Frameworks */,
@@ -82,9 +167,9 @@
 			);
 			dependencies = (
 			);
-			name = CryptoCourses;
+			name = CryptoRates;
 			productName = CryptoCourses;
-			productReference = 2079892725AEDB20002A572A /* CryptoCourses.app */;
+			productReference = 2079892725AEDB20002A572A /* CryptoRates.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2079892225AEDB20002A572A /* Build configuration list for PBXProject "CryptoCourses" */;
+			buildConfigurationList = 2079892225AEDB20002A572A /* Build configuration list for PBXProject "CryptoRates" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2079892625AEDB20002A572A /* CryptoCourses */,
+				2079892625AEDB20002A572A /* CryptoRates */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +209,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208AE33B25AEE2A8001D0D7A /* Colors.xcassets in Resources */,
+				2071853525AF0E4300FAAC60 /* RateTableViewCell.xib in Resources */,
 				2079893725AEDB24002A572A /* LaunchScreen.storyboard in Resources */,
-				2079893425AEDB24002A572A /* Assets.xcassets in Resources */,
-				2079893225AEDB20002A572A /* Main.storyboard in Resources */,
+				2079893425AEDB24002A572A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2079892F25AEDB20002A572A /* ViewController.swift in Sources */,
+				205FD70225AEE73500CC35DC /* Rate.swift in Sources */,
+				2079892F25AEDB20002A572A /* RatesViewController.swift in Sources */,
+				2071853225AEFECE00FAAC60 /* RateTableViewCell.swift in Sources */,
+				205FD71325AEEF6E00CC35DC /* Endpoint.swift in Sources */,
+				2079894125AEDEF7002A572A /* NavigationController.swift in Sources */,
+				205FD71625AEF57C00CC35DC /* URLSession+request.swift in Sources */,
+				205FD70F25AEEDA300CC35DC /* URL+makeForEndpoint.swift in Sources */,
 				2079892B25AEDB20002A572A /* AppDelegate.swift in Sources */,
 				2079892D25AEDB20002A572A /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +238,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2079893025AEDB20002A572A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2079893125AEDB20002A572A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2079893525AEDB24002A572A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +372,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZP5T3JP7G6;
-				INFOPLIST_FILE = CryptoCourses/Info.plist;
+				INFOPLIST_FILE = "CryptoRates/Common/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-belyaev.CryptoCourses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +392,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZP5T3JP7G6;
-				INFOPLIST_FILE = CryptoCourses/Info.plist;
+				INFOPLIST_FILE = "CryptoRates/Common/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,14 +401,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-belyaev.CryptoCourses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2079892225AEDB20002A572A /* Build configuration list for PBXProject "CryptoCourses" */ = {
+		2079892225AEDB20002A572A /* Build configuration list for PBXProject "CryptoRates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2079893925AEDB24002A572A /* Debug */,
@@ -331,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2079893B25AEDB24002A572A /* Build configuration list for PBXNativeTarget "CryptoCourses" */ = {
+		2079893B25AEDB24002A572A /* Build configuration list for PBXNativeTarget "CryptoRates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2079893C25AEDB24002A572A /* Debug */,
